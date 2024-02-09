@@ -92,8 +92,14 @@
     <ProjectReference Include="..\CommonLibrary\CommonLibrary.vcxproj">
       <Project>{10a4784e-49dd-4bc2-9c9f-12d9d4a908fe}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\Graphics\Graphics.vcxproj">
+      <Project>{48cf3aa5-378e-4f04-9cae-566f2d012d24}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\LocalLibrary\LocalLibrary.vcxproj">
       <Project>{d88dcea9-22c6-466b-b302-e6955405136b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Win\Win.vcxproj">
+      <Project>{2fa0c25a-5720-4c08-abb0-b215c6a09973}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

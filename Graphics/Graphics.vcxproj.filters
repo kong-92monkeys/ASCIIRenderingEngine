@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Device.ixx" />
+    <ClCompile Include="Surface.ixx">
+      <Filter>Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.ixx" />
+    <ClCompile Include="ConsoleSurface.ixx">
+      <Filter>Surface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Surface">
+      <UniqueIdentifier>{0e8a5876-f8e6-4799-af9b-ba5e653d6fea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
