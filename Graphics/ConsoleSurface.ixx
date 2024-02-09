@@ -31,6 +31,8 @@ namespace NT::Graphics
 		[[nodiscard]]
 		virtual Image &getImage() noexcept override;
 
+		virtual void sync() override;
+
 	private:
 		std::unique_ptr<ConsoleImage> __image;
 
@@ -55,6 +57,11 @@ namespace NT::Graphics
 	Image &ConsoleSurface::getImage() noexcept
 	{
 		return *__image;
+	}
+
+	void ConsoleSurface::sync()
+	{
+		// TODO
 	}
 
 	void ConsoleSurface::__createImage(Win::Console &console)

@@ -10,6 +10,7 @@ namespace NT::Graphics
 	public:
 		[[nodiscard]]
 		virtual Image &getImage() noexcept = 0;
+		virtual void sync() = 0;
 
 		[[nodiscard]]
 		const Image &getImage() const noexcept;

@@ -3,8 +3,12 @@ import com.ntmonkeys.graphics.consolesurface;
 
 int main()
 {
+	NT::Win::Console &console{ NT::Win::Console::getInstance() };
+
+	/*
+
 	NT::Graphics::Device::CreateInfo deviceCreateInfo;
-	NT::Win::Console console;
+	NT::Win::Console &console{ NT::Win::Console::getInstance() };
 
 	NT::Graphics::Device device{ deviceCreateInfo };
 
@@ -14,7 +18,7 @@ int main()
 	};
 
 	auto surface = device.createSurface(createInfo);
-	device.waitIdle();
+	device.waitIdle();*/
 
 	return 0;
 }
